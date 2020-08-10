@@ -1,0 +1,27 @@
+{
+    "name": "@lexml/madoc-ui",
+    "version": "1.9.61",
+    "publishConfig": {
+        "registry": "https://nexus.senado.leg.br/repository/npm-private/"
+    },
+    "peerDependencies": {
+        "@angular/compiler": "^8.2.14",
+        "@angular/core": "^8.2.14",
+        "@angular/forms": "^8.2.14",
+        "@angular/platform-browser": "^8.2.14",
+        "@angular/platform-browser-dynamic": "^8.2.14",
+        "bootstrap": "3.3.7",
+        "bootstrap-datepicker": "1.9.0",
+        "ckeditor": "4.12.1",
+        "core-js": "3.4.7",
+        "lodash": "4.17.10",
+        "moment": "2.24.0",
+        "ng2-ckeditor": "1.2.6",
+        "ngx-bootstrap": "5.2.0",
+        "rxjs": "6.5.3",
+        "xpath": "0.0.27",
+        "xslt": "0.9.1",
+        "zone.js": "~0.9.1",
+        "xml2js": "^0.4.23"
+    }
+}
