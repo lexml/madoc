@@ -64,7 +64,7 @@
 		<!-- Repositórios de deployment -->
 		<!-- 
 		<base.site.deployment.url>file://${user.home}/.m2/local-site-deployment</base.site.deployment.url>
-		<release.deployment.url>????</release.deployment.url> <snapshot.deployment.url>????</snapshot.deployment.url>
+		<release.deployment.url>????</release.deployment.url>
 		 -->
 
 		<release.plugin.version>3.0.0-M1</release.plugin.version>
