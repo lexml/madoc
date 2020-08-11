@@ -189,6 +189,11 @@
                     "options": {
                         "tsConfig": "projects/madoc-extras/tsconfig.lib.json",
                         "project": "projects/madoc-extras/ng-package.json"
+                    },
+                    "configurations": {
+                        "production": {
+                            "project": "projects/madoc-extras/ng-package.prod.json"
+                        }
                     }
                 },
                 "test": {

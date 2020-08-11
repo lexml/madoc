@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { BehaviorSubject, Observable, Subject } from 'rxjs';
 import { MadocStore } from './store.service';
 import { filter, distinctUntilChanged } from 'rxjs/operators';
-import { State } from 'madoc-ui/public_api';
+import { State } from '../model/state';
 
 @Injectable({
     providedIn: 'root',

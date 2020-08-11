@@ -1,6 +1,6 @@
 {
     "name": "@lexml/madoc-ui",
-    "version": "1.9.61",
+    "version": "1.0.0",
     "publishConfig": {
         "registry": "https://nexus.senado.leg.br/repository/npm-private/"
     },

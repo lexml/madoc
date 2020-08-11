@@ -6,17 +6,17 @@
         "lint": "ng lint",
         "app": "ng serve --proxy-config proxy.conf.json",
         "watch": "concurrently \"npm:dev-*\" -k",
-        "dev-madoc-lib": "ng build madoc-ui --watch",
+        "dev-madoc-ui": "ng build madoc-ui --watch",
         "dev-madoc-extras": "ng build madoc-extras --watch",
-        "build-madoc-lib": "ng build --prod madoc-ui",
+        "build-madoc-ui": "ng build --prod madoc-ui",
         "build-madoc-extras": "ng build --prod madoc-extras",
-        "test-madoc-lib": "ng test madoc-ui --watch=false --code-coverage",
-        "pack-madoc-lib": "cd dist/madoc-ui && npm pack",
+        "test-madoc-ui": "ng test madoc-ui --watch=false --code-coverage",
+        "pack-madoc-ui": "cd dist/madoc-ui && npm pack",
         "pack-madoc-extras": "cd dist/madoc-extras && npm pack",
-        "package-madoc-lib": "npm run build-madoc-lib && npm run test-madoc-lib && npm run pack-madoc-lib",
+        "package-madoc-ui": "npm run build-madoc-ui && npm run test-madoc-ui && npm run pack-madoc-ui",
         "package-madoc-extras": "npm run build-madoc-extras && npm run pack-madoc-extras",
-        "publish-madoc-lib": "npm publish ./dist/madoc-ui/madoc-ui*.tgz",
-        "publish-madoc-extras": "npm publish ./dist/madoc-extras/madoc-extras*.tgz"
+        "publish-madoc-ui": "npm publish ./dist/madoc-ui/lexml-madoc-ui*.tgz",
+        "publish-madoc-extras": "npm publish ./dist/madoc-extras/lexml-madoc-extras*.tgz"
     },
     "private": true,
     "dependencies": {
@@ -47,7 +47,9 @@
         "tslib": "^1.10.0",
         "xpath": "0.0.27",
         "xslt": "0.9.1",
-        "zone.js": "~0.9.1"
+        "zone.js": "~0.9.1",
+        "@lexml/madoc-ui": "^1.0.0",
+        "@lexml/madoc-extras": "^1.0.0"
     },
     "devDependencies": {
         "concurrently": "^5.0.0",
