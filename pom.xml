@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>br.gov.lexml.madoc</groupId>
 	<artifactId>madoc-dominio</artifactId>
-	<version>0.0.3</version>
+	<version>0.0.3-ALFA1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>madoc</name>
 	<description>POM Principal do domínio Madoc (Montador Automático de Documentos)</description>
