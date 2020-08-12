@@ -117,8 +117,8 @@
 					<suppressCommitBeforeBranch>true</suppressCommitBeforeBranch>
 					<remoteTagging>false</remoteTagging>
 					<updateBranchVersions>true</updateBranchVersions>
-					 -->
 					<updateWorkingCopyVersions>true</updateWorkingCopyVersions>
+					 -->
 				</configuration>
 			</plugin>
 			
