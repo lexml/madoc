@@ -9,14 +9,14 @@
 	</parent>
 	<groupId>br.gov.lexml.madoc</groupId>
 	<artifactId>madoc-dominio</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>madoc</name>
 	<description>POM Principal do domínio Madoc (Montador Automático de Documentos)</description>
 
 	<scm>
 		<developerConnection>scm:git:https://github.com/lexedit/madoc.git</developerConnection>
-		<tag>0.0.2</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<repositories>
