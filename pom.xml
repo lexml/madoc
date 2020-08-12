@@ -15,7 +15,9 @@
 	<description>POM Principal do domínio Madoc (Montador Automático de Documentos)</description>
 
 	<scm>
+		<connection>scm:git:https://github.com/lexedit/madoc.git</connection>
 		<developerConnection>scm:git:https://github.com/lexedit/madoc.git</developerConnection>
+		<url>scm:git:https://github.com/lexedit/madoc.git</url>
 		<tag>HEAD</tag>
 	</scm>
 
@@ -65,7 +67,7 @@
 		<release.deployment.url>????</release.deployment.url>
 		 -->
 
-		<release.plugin.version>2.5.2</release.plugin.version>
+		<release.plugin.version>2.5.3</release.plugin.version>
 
 		<maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
 
@@ -106,13 +108,16 @@
 				<artifactId>maven-release-plugin</artifactId>
 				<version>${release.plugin.version}</version>
 				<configuration>
-					<allowTimestampedSnapshots>false</allowTimestampedSnapshots>
 					<goals>deploy</goals>
+					<useReleaseProfile>false</useReleaseProfile>
 					<tagNameFormat>@{project.version}</tagNameFormat>
 					<autoVersionSubmodules>true</autoVersionSubmodules>
+					<allowTimestampedSnapshots>false</allowTimestampedSnapshots>
+					<!-- 
 					<suppressCommitBeforeBranch>true</suppressCommitBeforeBranch>
 					<remoteTagging>false</remoteTagging>
 					<updateBranchVersions>true</updateBranchVersions>
+					 -->
 					<updateWorkingCopyVersions>true</updateWorkingCopyVersions>
 				</configuration>
 			</plugin>
