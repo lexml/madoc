@@ -116,7 +116,7 @@
 
 	<modules>
 		<module>madoc-editor</module>
-		<module>madoc-server</module>
+		<module>madoc-engine</module>
 	</modules>
 
 
