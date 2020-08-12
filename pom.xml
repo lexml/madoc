@@ -20,6 +20,7 @@
 		<developerConnection>scm:git:https://github.com/lexedit/madoc.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
+	
 
 	<repositories>
 		<repository>
