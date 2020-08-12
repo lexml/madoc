@@ -14,6 +14,7 @@
 	<name>madoc</name>
 	<description>POM Principal do domínio Madoc (Montador Automático de Documentos)</description>
 
+
 	<scm>
 		<connection>scm:git:https://github.com/lexedit/madoc.git</connection>
 		<developerConnection>scm:git:https://github.com/lexedit/madoc.git</developerConnection>
