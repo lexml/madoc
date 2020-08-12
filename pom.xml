@@ -108,7 +108,6 @@
 				<configuration>
 					<allowTimestampedSnapshots>false</allowTimestampedSnapshots>
 					<goals>deploy</goals>
-					<pushChanges>false</pushChanges>
 					<tagNameFormat>@{project.version}</tagNameFormat>
 					<autoVersionSubmodules>true</autoVersionSubmodules>
 					<suppressCommitBeforeBranch>true</suppressCommitBeforeBranch>
