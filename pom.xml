@@ -106,6 +106,7 @@
 					<tagNameFormat>@{project.version}</tagNameFormat>
 					<autoVersionSubmodules>true</autoVersionSubmodules>
 					<allowTimestampedSnapshots>false</allowTimestampedSnapshots>
+					<updateWorkingCopyVersions>false</updateWorkingCopyVersions>
 				</configuration>
 			</plugin>
 			
