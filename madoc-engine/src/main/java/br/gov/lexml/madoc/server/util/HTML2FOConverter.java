@@ -80,7 +80,7 @@ public class HTML2FOConverter {
 //		 <li class="align-left">C</li>
 //		</ul>
 
-		String html = IOUtils.toString(new FileReader("src/test/resources/table.html"));
+		String html = IOUtils.toString(new FileReader("madoc-engine/src/test/resources/table.html"));
 
 		System.out.println(html);
 		System.out.println("-----------------");
@@ -209,7 +209,7 @@ public class HTML2FOConverter {
 
 		StringBuffer sb = new StringBuffer();
 
-		Pattern tagPattern = Pattern.compile("</?(p|table)\\b.*?>", Pattern.CASE_INSENSITIVE | Pattern.DOTALL);
+		Pattern tagPattern = Pattern.compile("</?(p|table)\\b(?![^>]*\\bclass\\s*=\\s*['\"][^'\"]*\\bmargin-bottom-0px\\b[^'\"]*['\"])[^>]*?>", Pattern.CASE_INSENSITIVE | Pattern.DOTALL);
 		Matcher m = tagPattern.matcher(xhtml);
 
 		String style="style=\"";
