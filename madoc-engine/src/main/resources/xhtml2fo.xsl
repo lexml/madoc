@@ -15,7 +15,6 @@
 
 <xsl:template name="common-atts">
   <xsl:copy-of select="@id|@color|@height|@width|@xml:lang"/>
-  <xsl:if test="@class='margin-bottom-0px'"><xsl:attribute name="margin-bottom">0</xsl:attribute></xsl:if>
   <xsl:if test="@align"><xsl:attribute name="text-align"><xsl:value-of select="@align"/></xsl:attribute></xsl:if>
   <xsl:if test="@nowrap"><xsl:attribute name="wrap-option">no-wrap</xsl:attribute></xsl:if>
   <xsl:call-template name="Trata-style"/>
@@ -552,9 +551,10 @@
   </fo:block>
 </xsl:template>
 
-<xsl:template match="p" priority="1">
+<xsl:template match="p">
   <fo:block>
-    <xsl:if test="@class='margin-bottom-0px'"><xsl:attribute name="margin-bottom='0'"></xsl:attribute></xsl:if>
+    <xsl:if test="@class='margin-bottom-0px'"><xsl:attribute name="margin-bottom">0em</xsl:attribute></xsl:if>
+    <xsl:if test="@class='text-indent-0px'"><xsl:attribute name="text-indent">0</xsl:attribute></xsl:if>
     <xsl:call-template name="common-atts"/>
     <xsl:apply-templates/>
   </fo:block>
