@@ -1,5 +1,7 @@
 # MADOC - Montador Automático de Documentos
 
+APLICAÇÃO DESCONTINUADA - CÓDIGO ABSORVIDO PELO LEXEDITWEB (APLICAÇÃO HOSPEDADA NO AMBIENTE DO SENADO FEDERAL)
+
 > Se você deseja apenas utilizar a biblioteca em seu projeto, **não é necessário conhecer o framework angular**. Tudo o que você precisa, está contido no arquivo testeapi.html
 >
 > Para obter uma explicação detalhada de como funciona a interação entre sua aplicação e o madoc, leia as instruções disponíveis em [`api`](#API).
